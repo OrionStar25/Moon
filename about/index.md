@@ -1,37 +1,27 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: About Me
+tags: [about, Jekyll, theme, Niharika]
+date: 2018-01-18
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center>19 | Chicken <3 | Taosim | Books | Selena Gomez | ♊</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+Hello friends! Let's start wih the introductions. On formal documents, papers, certificates, etc. I'm known as Niharika Shrivastava. 
+On most social platforms I go by the name OrionStar25. Otherwise, don't bother much. Call me Chunnu. 
 
-## Preview
+## Philosophies, any?
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+The one quote that has really stuck with me thorugh all these years is
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+> Its always the journey that matters, not the destination.
 
-## Getting Started
+And I like to have faith in Taoism ☯ .
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+## Who are you right now?
+
+I'm a developer in making, greatly enthused by javascript and C++. I study Information Technology in Indian Institute of Information Technology, Allahabad. Throw in some musical notes and sick beats and we could be having fun hacking together! :)
+Oh also, I'm hilarious. I promise. 
+
+Any messages or tweets coming my way are more than welcome.
