@@ -31,3 +31,17 @@ I'm a developer in making, greatly enthused by javascript, python and C++. I stu
 Oh also, I'm hilarious. I promise. 
 
 Any messages or tweets coming my way are more than welcome.
+
+## Resume
+
+<center><b>Moon</b> is a minimal, one column jekyll theme.</center>
+     
+ I'm not a developer or designer. And I don't add footer to show who did this theme. If you like this theme or using it, please give a **star** for motivation, It makes me happy.
+
+<iframe src="https://ghbtns.com/github-btn.html?user=TaylanTatli&repo=Moon&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+
+<object data="http://www.africau.edu/images/default/sample.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="http://www.africau.edu/images/default/sample.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://www.africau.edu/images/default/sample.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
