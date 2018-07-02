@@ -34,6 +34,6 @@ Any messages or tweets coming my way are more than welcome.
 
 ## Resume
 
-![View it here.](https://docs.google.com/viewer?url=${https://drive.google.com/file/d/19ypADEv_4CTvbVjGQ1DYcszsw7ySuvVr/view?usp=sharing})
+[Click here](https://drive.google.com/file/d/19ypADEv_4CTvbVjGQ1DYcszsw7ySuvVr/view?usp=sharing)
 
 
