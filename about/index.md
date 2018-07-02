@@ -34,10 +34,6 @@ Any messages or tweets coming my way are more than welcome.
 
 ## Resume
 
-<div id="pdf">
-  <object width="400" height="500" type="application/pdf" data="http://www.africau.edu/images/default/sample.pdf?#zoom=85&scrollbar=0&toolbar=0&navpanes=0" id="pdf_content">
-    <p>Error loading PDF</p>
-  </object>
-</div>
+![View it here.](https://docs.google.com/viewer?url=${https://drive.google.com/file/d/19ypADEv_4CTvbVjGQ1DYcszsw7ySuvVr/view?usp=sharing})
 
 
