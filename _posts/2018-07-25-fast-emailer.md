@@ -1,3 +1,18 @@
+---
+layout: post
+title:  "Fast-Emailer"
+date:   2018-07-25
+excerpt: Send mass custom emails at lightening fast speed!"
+tag:
+- automation 
+- technology
+- python
+- jekyll
+feature: https://cdn4.iconfinder.com/data/icons/email-2/128/Email_express_mail-512.png
+comments: true
+---
+
+
 What is this and why?
 -------------------------
 
@@ -22,12 +37,12 @@ Working
 
 The code can be downloaded from [here](https://github.com/OrionStar25/Fast-Emailer). I've tried to make it modular so its easy to maintain. We would be using Gmail as a service. The script would be accessing your gmail account. 
 
-##### Steps to let apps access your Gmail
+#### Steps to let apps access your Gmail
 
 1. Go to the [Less secure apps](https://myaccount.google.com/lesssecureapps) section of your Google Account.
 2. Turn on **Allow less secure apps**. If you don't see this setting, your administrator might have turned off less secure app account access.
 
-##### How does it work
+#### How does it work
 
 1.  The files we have are:
     -   `app.py` - Where the main script resides
@@ -58,7 +73,7 @@ The code can be downloaded from [here](https://github.com/OrionStar25/Fast-Email
 			"hb.jpg"
 			]
     ```
-4.  In `app.py`, our execution starts from main().
+4.  In `app.py`, our execution starts from `main()`.
     ```python
     def main():
 	    get_details() 
