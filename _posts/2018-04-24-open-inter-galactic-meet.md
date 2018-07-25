@@ -24,6 +24,14 @@ comments: true
 **Scholarships**
 
 1. Anita Borg.org
-2. &lt;there are many, needs to be updated&gt;
+2. Grace Hopper
+3. Women who code
+4. DAAD-WISE
+
+**Summer Programmes**
+
+1. EPFL
+2. MITACS
+3. DAAD-WISE
 
 If you have any, do comment it down and it shall be added!
