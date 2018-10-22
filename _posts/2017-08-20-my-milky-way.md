@@ -70,7 +70,7 @@ Approximately 3 months of holiday and I had plenty of things in mind to try out.
 
 **Third semester**
 
-My first year results were out and this is what had happened - I got a branch upgrade with the highest marks. Yay B-| . Hence now, I'm an IT student. But this change happened after an entire month after the vacations so I again had plenty of free time. Learnt more stuff xD
+My first year results were out and this is what had happened - I got a branch upgrade with the highest marks. Yay B-) . Hence now, I'm an IT student. But this change happened after an entire month after the vacations so I again had plenty of free time. Learnt more stuff xD
 
 1. Dual booted Linux with Windows ( FINALLY ).
 2. Learnt Javascript and JQuery from [Codacademy. ](https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiGlsqMvpbXAhUEo48KHZwxA7IQFggoMAA&url=https%3A%2F%2Fwww.codecademy.com%2F&usg=AOvVaw0c7O5dIaUeof0i926coD0T) This was actually very fun because it enables you to dynamically change your web pages and I wanted to put my skills to test. Hence I made 5 applications (4 games, 1 app) using it on my own. Used JS libraries and plugins to create websites.
@@ -86,7 +86,7 @@ My first year results were out and this is what had happened - I got a branch up
 12. Became a core team member in HINT and this actually is one of a kind experience. :O
 13. By this time, I have realized one thing. C++, Java, python, javascript :- I can work in all 3 given a little time. My level of proficiency in each is in this order :- C++ &gt; Java &gt; Javascript &gt; Python. And this can be turned around very easily I know. Anyway, still trying to get through my checklist.
 
-**Forth semester**
+**Fourth semester**
 
 1. Finally dived into open source, and I swear I'm going to continue for as long as I can. Contributed in Teammates- NUS, webcompat- Mozilla, ReSpec- W3C under Mozilla. The last one happens to be a beautiful experience, it was my repo for GSOC '18. I didn't get selected unfortunately but I won a lot of Mozilla swag :3.
 2. Tried out Jekyll by building self profile.
@@ -95,20 +95,31 @@ My first year results were out and this is what had happened - I got a branch up
 5. Made coordinator of Blockchain
 6. And chairperson of web and media, Gymkhana lel.
 
-**Summer Vacations (still going on)**
+**Summer Vacations**
 
 1. Made numerous python applications (Alarms, web scraping, media downloader, emailer,played with request module, text-speech api).
-2. ML course- Coursera.
+2. ML course- Coursera (Andrew NG). I found this a little too theortical, so I left it midway and I purchased a Udemy course. I've blogged about it [here](https://orionstar25.github.io/100-days-of-code/)
 3. Lots of coding and practicing for intern interview.
 4. Dapp using ethereum used to buy/sell stuff.
 5. Twitter bot for geekhaven's twitter account.
 
+**Fifth semester**
+
+Alright, this semester is FULL of projects! Mini, sem, course, hackathon.... *Pheww*
+
+1. Semester project is a combinaton of ML and cyber security. Finding private attributes of OSN users.
+2. Assignment Submission portal for software engineering course.
+3. Stock Analysis in Jess, 1 project in Prolog, various assignments in prolog and python for AI course.
+4. A project in OpenCV, gesture recogition, colour detection for Prototype hackathon. (I'm satisfied about this because I could complete this all by myself :-) )
+5. I got a summer internship in GoJek, and hopefully a winter internship in Flyrobe.
+6. Fun fact about this sem: I got a LOT of rejections from various scholarship programmes. :D
+7. Outreachy made me ineligible because of my term dates.*LOLOL*
+
 **Checklist for the future**
 
-1. Get an internship
-2. Outreachy
-3. Research intern
+1. Outreachy
+3. Research intern (6 month)
 4. Contribute in OS
-5. Exchange program
+5. Exchange program (hopefully 7th sem)
 
  
