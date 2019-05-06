@@ -22,7 +22,9 @@ I feel like breaking this into an algorithm for you:
 
 1.  Frame the main body which would stay the same irrespective of which organization you're contacting.
 2.  Insert temporary placeholders for phrases which would change depending on the organization. Eg:
+
 > HINT would like to collaborate with {org_name}. We've been associated with {org_name} for {years} and we look forward to continuing this association.
+
 3.  Compose a mail to the targetted organization. Paste the customized text in email body. Attach all the documents. Hit SEND.
 4.  __Repeat 3 till eternity :P .__
 

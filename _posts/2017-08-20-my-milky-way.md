@@ -9,7 +9,9 @@ tag:
 - college
 - life
 - jekyll
-comments: true
+- career
+- experience
+comments: false
 ---
 
 I was that kid who actually loved studying and getting good grades. Somehow people naturally assume that if you're straight A s always, you're meant for science. Now its not like I was that example who didn't choose science in her high school. Its true. Science grew on me slowly. I loved simple logical reasoning and I absolutely love mathematics (especially differential calculus :3 ). But there definitely wasn't any clear direction in my head pertaining to what field in science got me thrilled the most.
@@ -88,7 +90,7 @@ My first year results were out and this is what had happened - I got a branch up
 
 **Fourth semester**
 
-1. Finally dived into open source, and I swear I'm going to continue for as long as I can. Contributed in Teammates- NUS, webcompat- Mozilla, ReSpec- W3C under Mozilla. The last one happens to be a beautiful experience, it was my repo for GSOC '18. I didn't get selected unfortunately but I won a lot of Mozilla swag :3.
+1. Finally dived into open source, and I swear I'm going to continue for as long as I can. Contributed in Teammates- NUS, webcompat- Mozilla, ReSpec- W3C under Mozilla. The last one happens to be a beautiful experience, it was my repo for GSOC '18. I didn't get selected unfortunately but I won a lot of Mozilla swag :3. More about it [here](2018-02-19-respec-my-interpretation.md).
 2. Tried out Jekyll by building self profile.
 3. DBMS project in Flask: Virtual Classroom.
 4. HINT was a massive success!
@@ -114,12 +116,39 @@ Alright, this semester is FULL of projects! Mini, sem, course, hackathon.... *Ph
 5. I got a summer internship in GoJek, and hopefully a winter internship in Flyrobe.
 6. Fun fact about this sem: I got a LOT of rejections from various scholarship programmes. :D
 7. Outreachy made me ineligible because of my term dates.*LOLOL*
+8. Guess what! I got an interview with Google!
+
+**Winter Vacations**
+
+1. Whoaaa! Gave my first ever Google interview.
+2. Went on my Day 1 to Flyrobe for intern. Understood the project, came back to a mail from Google about another interview.
+3. Did competetive coding questions for the interview.
+4. Cleared Microsoft's coding round, up for the interviews!
+5. Had to leave the Flyrobe internship because of lack of time.
+6. Google results OUT! I'm NOT selected!! :D Here's my [experience](2018-12-19-google-interview-experience.md). 
+7. Got myself into a good team for Smart India Hackathon (SIH). Its the first time I had a team tbh :O
+8. Purchased a Udemy course on Deep Learning.
+
+**Sixth Semester**
+
+1. Decided I need to up my pointer,so started studying :3
+2. Semester project is again a combination of ensemble learning and cybersecurity. Implementing intrusion detections.
+3. Wrote about 10 proposals for SIH. Didn't get selected for SIH.
+4. Microsoft interviews in Delhi, you guys! Went to DTU to give them, got out in the 1st round :/ HORRIBLE HORRIBLE EXPERIENCE
+5. So apparently, some team either got disqualified or didn't send their confirmation and we got selected for SIH! Mid sems coming up.
+6. Left on the evening midsems got over to Hyderabad for SIH. We WON!! More about it [here]().
+7. Started contributing in Outreachy, Fedora.
+8. Got selected for Fedora, Outreachy. FINALLY! 
+9. I won full diversity scholarships from The Linux Foundation to visit their conferences in France and California. Will probably just attend in France.
+10. Hopefully will attend Flock to Fedora in Budapest, Hungary.
+
+
 
 **Checklist for the future**
 
-1. Outreachy
-3. Research intern (6 month)
-4. Contribute in OS
-5. Exchange program (hopefully 7th sem)
+1. Get a 10 pointer.
+2. Research intern (6 month)
+3. Pursue higher studies.
+
 
  

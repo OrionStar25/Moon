@@ -12,7 +12,7 @@ comments: false
 ---
 
     
-<center>Food | Taosim | Books | Selena Gomez | ♊</center>
+<center>Food | Taoism | Books | Selena Gomez | ♊</center>
 
 Hello friends! Let's start wih the introductions. On formal documents, papers, certificates, etc. I'm known as Niharika Shrivastava. 
 On most social platforms I go by the name OrionStar25. Otherwise, don't bother much. Call me Chunnu. 
@@ -27,7 +27,7 @@ And I like to have faith in duality ☯ .
 
 ## Who are you right now?
 
-I'm a developer in making, greatly enthused by javascript, python and C++. I study Information Technology in Indian Institute of Information Technology, Allahabad. Throw in some musical notes and sick beats and we could be having fun hacking together! :)
+I'm a developer in making, greatly enthused by python, C++, and javascript. I study Information Technology in Indian Institute of Information Technology, Allahabad. Throw in some musical notes and sick beats and we could be having fun hacking together! :)
 Oh also, I'm hilarious. I promise. 
 
 Any messages or tweets coming my way are more than welcome.
