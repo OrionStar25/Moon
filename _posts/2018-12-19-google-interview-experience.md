@@ -28,7 +28,7 @@ But still, I had been applying to a *lot* of other places because, you know, I'm
 
 Obviously, this was a very effective way to break my spirit (not completely though, but certainly made a crack). Then one day unexpectedly I receive this mail:
 
-![Whoa](google.png)
+![Whoa](../assets/img/google.png)
 
 Ummm, ALRIGHT?!
 

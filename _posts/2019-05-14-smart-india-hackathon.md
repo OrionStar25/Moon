@@ -41,10 +41,10 @@ It was December, 2018 and I was aware that applications for SIH, 2019 were open.
 
 It was a team of 6: 5 boys, 1 girl (so much for diversity :P). The skills in our team varied greatly and I think that was the reason why our work remained streamlined and well-thought throughout.
 
-Designer: Vinit Mankar
-Frontend: Gagan Ganapathy, Shreyansh Dwivedi, Pradeep Gangwar(Team Leader)
-Backend: Pradeep Gangwar, Saicharan Reddy, Niharika Shrivastava
-Data Scientists: Saicharan Reddy, Niharika Shrivastava 
+- Designer: Vinit Mankar
+- Frontend: Gagan Ganapathy, Shreyansh Dwivedi, Pradeep Gangwar(Team Leader)
+- Backend: Pradeep Gangwar, Saicharan Reddy, Niharika Shrivastava
+- Data Scientists: Saicharan Reddy, Niharika Shrivastava 
 
 We also had an option to have a mentor but we decided against it since we wanted to figure it out ourselves.
 
