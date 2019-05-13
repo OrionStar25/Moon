@@ -9,6 +9,7 @@ tag:
 - GSOC
 - open soruce
 - jekyll
+feature: https://utilu.com/UtiluMFC/img/mozilla_firefox_logo.png
 comments: true
 ---
 
