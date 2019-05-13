@@ -27,7 +27,8 @@ But still, I had been applying to a *lot* of other places because, you know, I'm
 3. The ones that did respond back told me I wasn't competent enough. :D
 
 Obviously, this was a very effective way to break my spirit (not completely though, but certainly made a crack). Then one day unexpectedly I receive this mail:
-<attach photo>
+
+![Whoa](google.png)
 
 Ummm, ALRIGHT?!
 
@@ -44,8 +45,11 @@ _And the calls came._ Dot on time too. So I had 2 telephonic interviews, both of
 The 1st call was from Google, Singapore. I could tell he was a South Indian. He asked me about myself and asked the following 2 questions:
 
 > 1. **Given an integer array, count the number of ways you can divide it into 3 contiguous arrays of equal sums.**
+
 I solved this in O(n^2) time complexity and O(1) space complexity.
+
 > 2. **Given a complete binary tree and an element value, return the node containing that element.**
+
 I solved this is O(log(n)) time complexity and O(log(n)) space complexity.
 
 He was patient and gave me 1 hint each for both the questions. This interview got extended upto 61 minutes :3.
@@ -53,8 +57,11 @@ He was patient and gave me 1 hint each for both the questions. This interview go
 The 2nd call was from Google,Hyderabad. He too was a South Indian. He jumped straight to the questions:
 
 > 1. **Given 2 keypresses like [A-Za-z0-9] and backticks(\`) in an array, tell if the resultant strings would be equal**
+
 I solved this in O(n) time complexity and O(1) space complexity.
+
 > 2. **Given an array of integers, find all equivalence points where sum of array before the equivalence point = sum of array after the equivalence point.**
+
 I solved this is O(n) time complexity and O(n) space complexity.
 
 I solved both the questions with no hints. This interview got extended upto 57 minutes :3.
@@ -69,6 +76,7 @@ _And the call came again._ Five minutes late this time. There was just 1 telepho
         EUR, YEN, 1.6
         YEN, RUB, 2.4
         find answer of queries like: USD,YEN,_?**
+
 It was a pretty vague question. He didn't tell me much about the format of the file or anything related. I told him I'd solve this using DFS. I explained the logic. He seemed satisfied. He asked me to code it. I asked him to give me an idea of how its stored so that I could manipulate it into data structures. He gave me this:
 
 `vector<vector<string>>conversion_rates`
