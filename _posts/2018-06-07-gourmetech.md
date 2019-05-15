@@ -25,7 +25,7 @@ This dish provides a multi-sensory approach. Seafood, kelp, seaweed and edible s
 
 But the reverse has been catching on too! Developers have managed to make their technologies and services more appealing by selling it as something we’d like to dive in almost instantly.
 
-#Its snack time
+##Its snack time
 
 - Let me give you the most basic example:
 ![](https://stardiariesweb.files.wordpress.com/2018/06/apple.jpeg "Apple")
@@ -37,7 +37,7 @@ But the reverse has been catching on too! Developers have managed to make their 
 
 - **Vegan** is an `npm` library that tells you whether a food item is vegan or not.
 
-#Did anyone order dessert?
+##Did anyone order dessert?
 
 - Something for the sweet tooth :
 ![](https://www.jsys.co/wp-content/uploads/2017/02/Android-Versions.jpg "Android versions")
