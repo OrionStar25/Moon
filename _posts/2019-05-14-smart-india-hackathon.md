@@ -52,7 +52,7 @@ We were team **Bit N' Bytes**! (Do guess who's the bit and who're the bytes ;-D)
 
 ## Teach me your winning tricks, sensei ;-;
 
-Since it was my 1st major hackathon (itinvolved travelling to a different city and that was cool in itself), I had PLENTY of ideas about how to go about it. Everyone inmy team was super excited and we decided to go step by step. 
+Since it was my 1st major hackathon (it involved travelling to a different city and that was cool in itself), I had PLENTY of ideas about how to go about it. Everyone in my team was super excited and we decided to go step by step. 
 
 **Step 1: Form a team** Check.
 
@@ -72,7 +72,7 @@ They were further subdivided according to organizations which proposed these pro
 
 >  To implement intelligent natural language search for all R&D data of Dr. Reddy's Lab.
 
-It was under the `complicated` section. We got ourselves matching team t-shirts. Our centre was in [CMRCET, Hyderabad](http://www.cmrcet.ac.in/) and we had to leave *right* after our midsems got over. The hackathon was for 36 hours. 
+It was under the `complicated` section. We got ourselves matching team t-shirts. Our centre was in [CMRCET, Hyderabad](http://www.cmrcet.ac.in/), which also happened to be the largest SIH centre with 42 teams, and we had to leave *right* after our midsems got over. The hackathon was for 36 hours. 
 
 **Step 6: Hacking Begins!** We reached Hyderabad on the 1st of March and tbh were very impressed by the hospitality we received from the staff. The hackathon started on 2nd, March. There were 4 sets of evaluations, all by different sets of judges. We decided to utilize our time in the most productive way by:
 
@@ -103,6 +103,3 @@ P.S.: They had a slot booked for `recreational activities` where they set up a D
 Here's the link to our entire [project](https://github.com/OrionStar25/Smart-India-Hackathon-2019) and here's a picture of us sleep-deprived and happy :)
 
 ![Yayy](https://scontent.fbom19-2.fna.fbcdn.net/v/t1.0-9/53563600_2247968115264508_6424803473136549888_n.jpg?_nc_cat=104&_nc_ht=scontent.fbom19-2.fna&oh=62bd3ddec70432283ddba9ff19fee536&oe=5D55B35B)
-
-
-
