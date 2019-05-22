@@ -19,7 +19,7 @@ On most social platforms I go by the name OrionStar25. Otherwise, don't bother m
 
 ## Philosophies, any?
 
-The one quote that has really stuck with me thorugh all these years is
+The one quote that has really stuck with me through all these years is
 
 > Its always the journey that matters, not the destination.
 
@@ -27,13 +27,11 @@ And I like to have faith in duality ☯ .
 
 ## Who are you right now?
 
-I'm a developer in making, greatly enthused by python, C++, and javascript. I study Information Technology in Indian Institute of Information Technology, Allahabad. Throw in some musical notes and sick beats and we could be having fun hacking together! :)
+I'm a developer in making, greatly enthused by python, C++, and javascript. I am pursuing Bachelors in Information Technology from Indian Institute of Information Technology, Allahabad. Throw in some musical notes and sick beats and we could be having fun hacking together! :)
 Oh also, I'm hilarious. I promise. 
 
 Any messages or tweets coming my way are more than welcome.
 
-## Resume
+## What is this place?
 
-[Click here](https://drive.google.com/file/d/19ypADEv_4CTvbVjGQ1DYcszsw7ySuvVr/view?usp=sharing)
-
-
+This site is a placeholder for my technical journey. My blogs, projects, and resume profiles will reflect all the related work. I do have another blog which holds a different side of me. Feel free to lurk around a bit longer [there](https://stardiariesweb.wordpress.com/)!
