@@ -70,7 +70,7 @@ They were further subdivided according to organizations which proposed these pro
 
 **Step 5: Prepare** The problem statement we got shortlisted in was:
 
->  To implement intelligent natural language search for all R&D data of Dr. Reddy's Lab.
+>  **To implement intelligent natural language search for all R&D data of Dr. Reddy's Lab:** We place all our R&D reports, findings, etc. in the form of PPT slides in a shared folder. Is there a way to automatically build knowledge from these and help us with insights for any given search term? 
 
 It was under the `complicated` section. We got ourselves matching team t-shirts. Our centre was in [CMRCET, Hyderabad](http://www.cmrcet.ac.in/), which also happened to be the largest SIH centre with 42 teams, and we had to leave *right* after our midsems got over. The hackathon was for 36 hours. 
 
