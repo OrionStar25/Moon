@@ -18,6 +18,12 @@ comments: false
 
 The title is true. And I can prove it.
 
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black;
+        }
+</style>
+
 
 ||Open Source Community| Neighbour|
 |---|---|---|
@@ -25,6 +31,8 @@ The title is true. And I can prove it.
 |2|Every person's journey in Open Source starts with a community bonding session, where you talk cheerfully and proudly about yourself and get to know everyone else involved in your favourite project.   | Probably didn't even wish you on your birthday.|
 |3|OSS community is now engaging new contributors by organizing month-long programmes and provide handsome stipends. (GSoC), (Outreachy), (SOSIS), (GCI), etc) | Neighbour giving you money? Good joke.   |
 |4|You get to learn a lot of cool geeky concepts and are perceived as highly intellectual. You get to showoff organization [swag](https://twitter.com/StarOrion25/status/993495345471655937) and can attend OSS conferences around the world! |Probably bores you with the same abroad trip story and pics they took 2 yrs back.|
+
+{: .tablelines}
 
 
 And all these realizations didn't come to me by *just* reading about them in blogs. I experienced it all firsthand. My journey hasn't been a straightforward one.
