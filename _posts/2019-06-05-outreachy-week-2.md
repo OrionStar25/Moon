@@ -57,11 +57,11 @@ arch: x86_64
 This NSVCA is never the same between different users. The module metadata is written and stored as a `YAML` document, which `libmodulemd`, a helper library for Modularity, exists to read, parse, modify and output.
 
 |Too fast| Too slow|
-|-------|-------|
+|:-------|-------:|
 System administrators often want stability for long periods of time.|Developers often want the latest version of softwares.|
 |----
 Fedora generally ships the latest stable versions of its component packages when it is released **twice per year**. That is convenient for desktop users and developers.| CentOS targets long-term stability and releases a new version **once every few years**. This is convenient for server administrators as there are fewer changes over longer periods of time.|
-|----
+|=====
 Some Fedora upstreams release their software faster than twice a year. This can be an issue for Fedora servers because it is sometimes necessary to have a stable version of certain packages for a longer period, mostly because of third-party applications.|CentOS's issue is that some of the software gets too old for modern applications, and newer versions might be needed. |
 
 {: rules="groups"}
