@@ -13,7 +13,7 @@ tag:
 - jekyll
 - fedora
 - modularity
-feature: https://pubhub.devnetcloud.com/media/sih/site/images/2019-logo/drawable-xxxhdpi/logo.png
+feature: https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/UvUUs1WXEBgwWcMbhbQ_JB5tScafJWbz95oNsfYnIyQQWW.width-808.jpg
 comments: false
 ---
 
@@ -59,7 +59,7 @@ Streams are stored as a `GPtrArray` in a `module` object. The data structure nee
 
 So I initialised a `GHashtable` with the name `stream_names`.
 
-```
+```sh
 GHashtable *stream_names = NULL;
 ```
 And there were two mistakes here:
@@ -75,7 +75,7 @@ And there were two mistakes here:
 So if I initialise a `GPtrArray`, store array elements in it, and de-allocate memory later, the array lets me set a function to be called on each element when the array itself is freed. Which means I don't need to individually free the elements manually. I just call `g_ptr_array_unref()` and it will also clean up the array contents.
 
 Hence, now my code becomes:
-```C
+```sh
  g_autoptr (GHashTable) stream_names =
     g_hash_table_new _full(g_str_hash, g_str_equal, g_free, NULL);
 
@@ -130,7 +130,7 @@ Now that the exact error was detected, it was time to tackle it!
 ### Transcending towards Nirvana
 
 Coming back to this piece of code:
-```C
+```sh
  g_autoptr (GHashTable) stream_names =
     g_hash_table_new _full(g_str_hash, g_str_equal, g_free, NULL);
 ```
@@ -167,8 +167,7 @@ We add them to the `GHashtable` and then consume those keys to create an ordered
 
 5. So, since that function is returning memory that is fully self-contained, it's safe to return it. Since nothing will change it underneath us and the API consumer can hold onto it however long they need to.
 
-```C
-
+```sh
 GPtrArray *
 modulemd_ordered_str_keys (GHashTable *htable, GCompareFunc compare_func)
 {
@@ -192,7 +191,7 @@ With this analysis, we reach to the conclusion that the first solution is good e
 
 
 Hence, my final method looked like this! 
-```C
+```sh
 GStrv
 modulemd_module_get_stream_names_as_strv (ModulemdModule *self)
 {
