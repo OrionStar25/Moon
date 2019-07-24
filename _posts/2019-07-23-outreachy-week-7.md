@@ -78,7 +78,6 @@ Now that my project was broken down into tasks, I had to understand each of thes
 
 We stored all the strings of a `module:stream` pair that were only of the **highest** version. It is acceptable to assume that if there are multiple matching `streams` of the same `module`, `stream` and `version` but different `context` and/or `architecture` that you do not need to care about `context` and `architecture`. The module build system ensures that all `context/arches` share the same summary, description and profiles across the `version`.
 
-
 #### Submit to Translation tool
 
 [Zanata](https://fedora.zanata.org/?dswid=-2287) is a translation tool that Fedora relies on right now for its localization needs. It accepts [Babel Catalogs](http://babel.pocoo.org/en/latest/api/messages/catalog.html) (`gettext .pot` files) containing unique strings in one language as keys along with their locations of occurrences in the file. All these strings need to be unique in the catalog. This is important because `gettext .pot` files cannot handle having the same source string appear more than once.
