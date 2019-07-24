@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Titless"
+title:  "Season @ Fedora Modularity"
 date:   2019-07-23
-excerpt: "Everything I've completed till now and things to come"
+excerpt: "Progress report for my Outreachy project at Fedora Modularity"
 tag:
 - open source
 - outreachy
@@ -13,78 +13,225 @@ tag:
 - jekyll
 - fedora
 - modularity
-feature: https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/UvUUs1WXEBgwWcMbhbQ_JB5tScafJWbz95oNsfYnIyQQWW.width-808.jpg
+feature: https://www.elegantthemes.com/blog/wp-content/uploads/2015/10/Best-WordPress-Timeline-Plugins.png
 comments: false
 ---
 
-Hi! I'm VERY excited to be writing this blog post. I have essentially only a month left fro my Outreachy internsip with The Fedora Project to end. Surprisingly, this realization is of a bitter-sweet one. The amount of skills I've picked up duroing my 2 months of Outreachy are simply priceless. I tried to code within deadlines, learnt new concepts and technology, implemeted it to reflect into my code, networked with different people as pasrt of fedora community bonding, made major mistakes, tried to redeem myself from them (still working on that :shy:), and Im DEFINITELY not done just yet! 
+Hello all! It's **Open Source Summer** coding season at **The Fedora Project**. Translations are pouring heavily at **Modularity**, a strong gust of **Happiness Packets** are incoming in from the East, **Fedora pipelines** are being modified to handle the frequent Fedora releases.
 
-## Optimististic timelines I create for myself :')
+I'm VERY excited to be writing this blog post. I have essentially only a month left for my Outreachy internsip with The Fedora Project to end. Surprisingly, this realization is of a bitter-sweet one. The amount of skills I've picked up during my 2 months of Outreachy are simply priceless. I not only tried to code within deadlines, but also learnt new concepts and technology, implemeted it to reflect into my code, networked with different people as part of fedora community bonding, made MAJOR mistakes, tried to redeem myself from them (still working on that 🙈), and I'm DEFINITELY not done just yet! 
 
-Outreachy mentors and interns start the internship with a specific set of project goals. These timelines are ususally a very optimistic view of what could happen if everything goes exactly as planned. It often doesn't, but people still make optimistic plans. This concept is called as [Planning Fallacy](https://en.wikipedia.org/wiki/Planning_fallacy). Projects always feel easy to work on initially. But delays to projects happen. Maybe your project turned out to be more complicated than you or your mentor anticipated. Maybe you needed to learn some concepts before you could tackle project tasks. Maybe the community documention wasn't up-to-date or was wrong.
+## My Optimististic timelines 😂
+
+Outreachy mentors and interns start the internship with a specific set of project goals. These timelines are ususally a very optimistic view of what could happen if everything goes exactly as planned. IT OFTEN DOESN'T, but people still make optimistic plans. This concept is called as [Planning Fallacy](https://en.wikipedia.org/wiki/Planning_fallacy). Projects always feel easy to work on initially. But delays to projects happen. Maybe your project turned out to be more complicated than you or your mentor anticipated. Maybe you needed to learn some concepts before you could tackle project tasks. Maybe the community documention wasn't up-to-date or was wrong.
 
 Keeping all this in mind, this was my initial timeline:
 
-May 20, 2019 - May 25, 2019 - Relocating to a new city, hence won't be completely active. Shall participate via community bonding. Will continuously be in touch with the mentor to break down the internship tasks into steps for the coming days. Will go through the code base thoroughly to look for vulnerabilities, potential bugs, and redundancies.
+> **May 20, 2019 - May 25, 2019** - Shall participate via community bonding. Will continuously be in touch with the mentor to break down the internship tasks into steps for the coming days. Will go through the code base thoroughly to look for vulnerabilities, potential bugs, and redundancies.
 
-May 26, 2019 - June 10, 2019: Implement any test that exists only in Python, in C, to ensure that they are getting properly tested by the static analysis and memory-leak checkers (valgrind). This would essentially involve copying already written python tests to C.
+> **May 26, 2019 - June 10, 2019** - Implement any test that exists only in Python, in C, to ensure that they are getting properly tested by the static analysis and memory-leak checkers (valgrind). This would essentially involve copying already written python tests to C.
 
-June 11, 2019 - July 10, 2019:  Write code for a set of new tests which willl be provided by the mentor.
+> **June 11, 2019 - July 10, 2019** - Write code for a set of new tests which will be provided by the mentor.
 
-July 11, 2019 - Aug 11, 2019:  Scan the library for any leftover tests, or vulnerabilities. Write exhaustive unit tests for the leftover code blocks and extend some already written tests (if necessary). Try to make the tests modular by breaking them into smaller tests for maintainability.	
+> **July 11, 2019 - Aug 11, 2019** - Scan the library for any leftover tests, or vulnerabilities. Write exhaustive unit tests for the leftover code blocks and extend some already written tests (if necessary). Try to make the tests modular by breaking them into smaller tests for maintainability.	
 
-Aug. 12, 2019 - Aug. 20, 2019: Update documentation for all the changes made during the internship.
+> **Aug. 12, 2019 - Aug. 20, 2019** - Update documentation for all the changes made during the internship.
 
 
 And then my project changed completely. This time, my mentor made my new timeline: 
 
-5. There's two parts to the task:
-	1. **Phase 1**: Extract all translatable strings from the modules that have been built for each Fedora release and submit them to the translation tool, Zanata, for the translators to work on.
+> **Phase 1**: Extract all translatable strings from the modules that have been built for each Fedora release and submit them to the translation tool, Zanata, for the translators to work on.
 
-	2. **Phase 2**: Retrieve the finished translations and use the libmodulemd API to turn them into modulemd-translations documents.
+> **Phase 2**: Retrieve the finished translations and use the libmodulemd API to turn them into modulemd-translations documents.
 
-6. **Stretch Goal**: Include the code from Phase 2 into Fedora's repo creation automation so that it gets updated automatically every day.
+> **Stretch Goal**: Include the code from Phase 2 into Fedora's repo creation automation so that it gets updated automatically every day.
 
-I must say this timeline seemed very relaxed and exciting to me. This project felt like I was a consumer And a developer for libmodulemd both at the same time. 
+I must say this timeline seemed very relaxed and exciting to me. This project felt like I was a consumer AND a developer for libmodulemd both at the same time. 
 
-## Approach to any task I undertook
+## Project flow
 
-Discuss goal
-Write a design document
-Write test
-Write code
-Ask doubts and do thorough readin throughout. 
+Now that my project was broken down into tasks, I had to understand each of these problems thoroughly and break them into smaller tasks. That way, I could create a workflow and convert it into modular code. For any task I undertook, I was expected to:
+
+1. Discuss the goal of that task and do theoritical study on the required concepts.
+2. Write a requirements document stating:
+	1. All the constraints.
+	2. Expected input/output.
+	3. Dependencies needed(if any).
+	4. Activity flowchart described into words
+3. Write unit tests first for the task validating our expectation of the workflow. This is called [Test-Driven Development](https://www.guru99.com/test-driven-development.html).
+4. Finally write code and fix any intermediary bugs or add necessary features on the way.
+5. Ask doubts throughout, if stuck. 
 
 ## Task 1
  > Extract all translatable strings from the modules that have been built for each Fedora release and submit them to the translation tool, Zanata, for the translators to work on.
 
-To put this in terms of code, I was given a ModulemdIndex object as input, and I needed to return a Babel catalog as the output. 
+ #### Extraction
 
-Module stream pair. hierarchy. What all strings. get the latest module stream pair version because nsvca cpould be all reoplaced. gettext .po file takes only unique strings. store locations. multiple occurences. find a way to retrioeve the locations back. 
-explain .po files and babel catalog
+ 1. Fedora modular metadata is divided into modules which are stored as `YAML` files. 
+ 2. Every `YAML` file is loaded into a `ModulemdIndex` object. 
+ 3. Each `ModulemdIndex` object contains `ModulemdModule` objects.
+ 4. Each `ModulemdModule` object contains `ModulemdModuleStream` objects.
+ 5. Each `ModulemdModuleStream` (identified by their [NSVCA](https://orionstar25.github.io/outreachy-week-2/)) object contains 3 translatable strings:
+	1. Summary
+	2. Description
+	3. Profile description (There may be zero or more profiles. Each profile may have a description and an arbitrary profile name.)
 
-explain code thouroughy.
+We stored all the strings of a `module:stream` pair that were only of the **highest** version. It is acceptable to assume that if there are multiple matching `streams` of the same `module`, `stream` and `version` but different `context` and/or `architecture` that you do not need to care about `context` and `architecture`. The module build system ensures that all `context/arches` share the same summary, description and profiles across the `version`.
+
+
+#### Submit to Translation tool
+
+[Zanata](https://fedora.zanata.org/?dswid=-2287) is a translation tool that Fedora relies on right now for its localization needs. It accepts [Babel Catalogs](http://babel.pocoo.org/en/latest/api/messages/catalog.html) (`gettext .pot` files) containing unique strings in one language as keys along with their locations of occurrences in the file. All these strings need to be unique in the catalog. This is important because `gettext .pot` files cannot handle having the same source string appear more than once.
+These catalogs are further processed into `.po` (portable object) files and forwarded for translation. Locations are of the type:
+
+```python
+module_name;stream_name;string_type
+```
+
+ To put this in terms of code, there is a `ModulemdIndex` object as input, and we return a `Babel Catalog` as the output. 
+
+ ```python
+ def get_translation_catalog_from_index(index, project_name):
+	...
+	return catalog
+ ```
+
+ Next, to extract the translatable strings (or just strings, for brevity):
+
+ ```python
+	# Get all Modulemd.Module object names
+    module_names = index.get_module_names()
+
+    # Create a list containing highest version streams of a module
+    final_streams = list()
+
+    for module_name in module_names:
+        module = index.get_module(module_name)
+        stream_names = module.get_stream_names()
+
+        for stream_name in stream_names:
+            # The first item returned is guaranteed to be the highest version
+            # of that stream in that module.
+            stream = module.search_streams(stream_name, 0)[0]
+            final_streams.append(stream)
+
+    # A dictionary to store:
+    # key: all translatable strings
+    # value: their respective locations
+    translation_dict = defaultdict(list)
+
+    for stream in final_streams:
+        # Process description
+        description = stream.get_description("C")
+        location = ("{};{};description").format(
+            stream.props.module_name, stream.props.stream_name)
+        translation_dict[description].append(location)
+
+        # Process summary
+        summary = stream.get_summary("C")
+        location = ("{};{};summary").format(
+            stream.props.module_name, stream.props.stream_name)
+        translation_dict[summary].append(location)
+
+        # Process profile descriptions(sometimes NULL)
+        profile_names = stream.get_profile_names()
+        if(profile_names):
+            for pro_name in profile_names:
+                profile = stream.get_profile(pro_name)
+
+                profile_desc = profile.get_description("C")
+                location = ("{};{};profile;{}").format(
+                    stream.props.module_name, stream.props.stream_name, pro_name)
+                translation_dict[profile_desc].append(location)
+
+ ```
+
+ Now that we have our strings, we simply put them in our babel catalog with their location of occurrences and return it.
+
+ ```python
+    catalog = Catalog(project=project_name)
+
+    for translatable_string, locations in translation_dict.items():
+        catalog.add(translatable_string, locations=locations)
+
+    return catalog
+ ```
 
 ## Task 2
 > Retrieve the finished translations and use the libmodulemd API to turn them into modulemd-translations documents.
 
-Given a list of .po files, and initiak ModulemdIndex object, ctreate modulemdTranslations objects and add them to the index. This index would later be injected into modified yamls and shipped out as new fedora releases. 
+After Zanata translates our strings, they provide us with a `.po` file corresponding to one language. This file is turned back into a `babel catalog` so that we can parse the translations and put them into our original `ModulemdIndex` object. This file contains headers like this:
 
-explain these differnt po. files and their attributes.. 
-Realized my tests writtenf for task 1 were wrong. Fixed them. Task 1 code was breaking. Fixed that. resumed task 2. 
-explain code flow for this. explain data strictures if needed.
+```
+"Project-Id-Version: fedora-modularity-translations VERSION\n"
+"POT-Creation-Date: 2018-10-16 18:39+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"X-Generator: Zanata 4.6.2\n"
+```
 
-PR merged! 2 months, 2 tasks completed, we were right on time till now!
+Th input is a list of such `catalogs` and our original `ModulemdIndex`. We change this `ModulemdIndex` object inplace and later this change is reflected into the corresponding `YAML` file.
 
-## Stretch goal task 3
+```python
+def get_modulemd_translations_from_catalog(catalogs, index):
+    ...
+    return None
+```
+
+Creating `ModulemdTranslation` objects to be later stored in our `index`:
+
+```python
+	# Dictionary `data` contains information from catalog like:
+	# Key: (module_name, stream_name)
+	# Value: TranslationEntry object of a locale
+	data = dict()
+
+	for msg in catalog:
+		for location, _ in msg.locations:
+			(module_name, stream_name, string_type,
+				profile_name) = split_location(location)
+
+			try:
+				entry = data[(module_name, stream_name)]
+			except KeyError:
+				entry = Modulemd.TranslationEntry.new(
+					str(catalog.locale))
+
+			if string_type == "summary":
+				entry.set_summary(msg.string)
+			elif string_type == "description":
+				entry.set_description(msg.string)
+			else:
+				entry.set_profile_description(profile_name, msg.string)
+
+			data[(module_name, stream_name)] = entry
+```
+
+And now store them in our `index`:
+
+```python
+for (module_name, stream_name), mmd_translation in translations.items():
+	try:
+		ret = index.add_translation(mmd_translation)
+	except GLib.Error:
+		print(
+			"The translation for this %s:%s could not be added",
+			module_name,
+			stream_name)
+
+```
+
+### PR merged! 2 months, 2 tasks completed, we were right on time till now!
+
+## Task 3
 > Include the code from Phase 2 into Fedora's repo creation automation so that it gets updated automatically every day.
 
-Till now everything were just functions being called on static files. Now we would pull actual yamls from fedora's repo creation tool, Koji, and then apply the process to obtain translations. WIP
+Till now everything were just functions being called on static files. Now we would pull actual `YAMLs` from fedora's repo creation tool, `Koji`, and then apply the process to obtain translations. This is still a work-in-progress. Koji calls are network dependent and my tests written for this function were failing due to a connection timeout. Hence, I needed to `mock` a `koji session`. 
 
-Koji calls are netwrok dependednt, Tests were failing sue to timeout. Needed to mock a koji session. 
-exlaoin code
+## Wrapping up
+I still have a long way to go, but my learning curve is only getting better. I will write thorough documentation for all of my work after the completion of my project. I am also looking forward to speaking about this project at the annual Fedora developer conference, [Flock to Fedora](https://flocktofedora.org/). Hence proved, Outreachy is truly a rewarding experience! I hope you'd like to immerse yourself into this wonderful weather @ Fedora where the sun is about to shine soon 🌦️.
 
-## Goal to wrap up
 
-Will write thorough documentation for all of this. Looking foward to speak about this in Flock. such a rewadring experience. definitely involving more people from uni into this. 
-
+*Fin.*
