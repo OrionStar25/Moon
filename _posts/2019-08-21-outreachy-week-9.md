@@ -13,7 +13,7 @@ tag:
 - jekyll
 - modularity
 - fedora
-feature: https://docs.pagure.org/modularity/assets/logo.png
+feature: https://resources.workable.com/wp-content/uploads/2017/12/shutterstock_312253628.jpg
 comments: false
 ---
 
