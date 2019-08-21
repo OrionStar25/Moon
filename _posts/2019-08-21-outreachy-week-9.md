@@ -47,7 +47,6 @@ I am still not sure what exactly I want to do career-wise but I have some very d
 2. 1 in Ensemble Learning
 3. 1 in attention-based convolutional recurrent network 
 **all graded A+ as part of semester-long projects**
-
 I am fluent with python and ML concepts, and can implement all algorithms with/without using existing frameworks. I believe in doing extensive research about various approaches befoe implementing a model.
 
 - What tools or skills would you like to learn?
@@ -76,5 +75,5 @@ I am fluent with python and ML concepts, and can implement all algorithms with/w
 
 
 Here is my:
-1. (LinkedIn)[https://www.linkedin.com/in/niharikashrivastava/]
-2. (Resume)[https://drive.google.com/file/d/1RdlMXxo7Vp3gNQvL0UmixyXoesODmfr4/view?usp=sharing]
+1. [LinkedIn](https://www.linkedin.com/in/niharikashrivastava/)
+2. [Resume](https://drive.google.com/file/d/1RdlMXxo7Vp3gNQvL0UmixyXoesODmfr4/view?usp=sharing)
