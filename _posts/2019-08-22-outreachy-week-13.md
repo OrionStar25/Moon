@@ -17,14 +17,14 @@ feature: https://communityblog.fedoraproject.org/wp-content/uploads/2018/01/outr
 comments: false
 ---
 
-🎶 *Country roads
-Take me home
-To the place
-I belong
-West Virginia
-Mountain Momma
-Take me home
-Country Roads* 🎶
+> 🎶 *Country roads*     
+*Take me home*     
+*To the place*     
+*I belong*     
+*West Virginia*     
+*Mountain Momma*     
+*Take me home*     
+*Country Roads* 🎶     
 
 In this song, `Country roads == Open source`; `Home == Outreachy + Fedora family`; `Mountain == humongous amount of knowledge I gained`.
 
