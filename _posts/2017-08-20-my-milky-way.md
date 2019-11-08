@@ -68,7 +68,7 @@ This semester was actually a little light academic wise and so I had time to try
 
 Approximately 3 months of holiday and I had plenty of things in mind to try out. This is what I did.
 
-1.  Created some more web pages to get my understanding of HTML and CSS better.
+1. Created some more web pages to get my understanding of HTML and CSS better.
 2. Continued practicing coding.
 3. Learnt python and started coding a little in that. This is when I was introduced to Django but I didn't touch any of it then.
 4. Realized I don't wanna work with PHP. :P
@@ -148,11 +148,24 @@ Alright, this semester is FULL of projects! Mini, sem, course, hackathon.... *Ph
 9. I won full diversity scholarships from The Linux Foundation to visit their conferences in France and California. Will probably just attend in France.
 10. Hopefully will attend Flock to Fedora in Budapest, Hungary.
 
+**Summer Vacations**
+
+1. Went to Gojek for intern. Stayed in Bangalore. Super cool experience.
+2. Used to come back from Gojek and work on the Outreachy internship.
+3. Got my PPO at Gojek :D
+
+**Seventh Semester**
+
+1. Went for "Flock to Fedora" at Budapest, Hungary and gave TWO talks.
+2. Started applying to universities for a 6-month research intern. Gave loads of interviews.
+3. Got selected in Synaptics for a 6-month intern (only as a backup :P).
+3. Semester project on RNN.
+4. Rejected two Google interviews cuz I don't feel like working at Google yet :P
+5. Have a 6-month offer from SUTD Singapore in heuristical AI, and Red Hat, Data Science for explainable AI. Waiting for CERN results in December. Let's see where I go.
 
 
 **Checklist for the future**
 
 1. Get a 10 pointer.
-2. Research intern (6 month)
-3. Pursue higher studies.
+2. Pursue higher studies.
  
