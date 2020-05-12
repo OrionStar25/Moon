@@ -167,5 +167,7 @@ Alright, this semester is FULL of projects! Mini, sem, course, hackathon.... *Ph
 **Checklist for the future**
 
 1. Get a 10 pointer.
-2. Pursue higher studies.
+2. Give GRE.
+3. Practice coding.
+4. Decide on things.
  
