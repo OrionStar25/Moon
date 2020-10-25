@@ -71,6 +71,8 @@ Here is an extract of a Software Requirement Specification (SRS) document for my
 ## Task 1
  > Extract all translatable strings from the modules that have been built for each Fedora release and submit them to the translation tool, Zanata, for the translators to work on.
 
+![Phase 1](../assets/img/phase1.png)
+
 ### Extraction
 
  1. Fedora modular metadata is divided into modules which are stored as `YAML` files. 
@@ -162,10 +164,10 @@ module_name;stream_name;string_type
     return catalog
  ```
 
-![Phase 1](../assets/img/phase1.png)
-
 ## Task 2
 > Retrieve the finished translations and use the libmodulemd API to turn them into modulemd-translations documents.
+
+![Phase 2](../assets/img/phase2.png)
 
 After Zanata translates our strings, they provide us with a `.po` file corresponding to one language. This file is turned back into a `babel catalog` so that we can parse the translations and put them into our original `ModulemdIndex` object. This file contains headers like this:
 
@@ -230,19 +232,16 @@ for (module_name, stream_name), mmd_translation in translations.items():
 
 ```
 
-![Phase 2](../assets/img/phase2.png)
-
 ### PR merged! 2 months, 2 tasks completed, we were right on time till now!
 
 ## Task 3
 > Include the code from Phase 2 into Fedora's repo creation automation so that it gets updated automatically every day.
 
+![Phase 3](../assets/img/phase3.png)
+
 Till now everything were just functions being called on static files. Now we would pull actual `YAMLs` from fedora's repo creation tool, `Koji`, and then apply the process to obtain translations. I have created a CLI Tool so that individual release translations can be manually added to their respective `modulemd YAML` metadata. But to include these translations into the main release is still a work-in-progress.
 
 As of now, I'm a maintainer for the Modulemd Translation Helpers repository for Fedora. You can check it out [here](https://github.com/fedora-modularity/ModulemdTranslationHelpers#modulemdtranslationhelpers).
-
-![Phase 3](../assets/img/phase3.png)
-
 
 ## Wrapping up
 I still have a long way to go, but my learning curve is only getting better. I will write thorough documentation for all of my work after the completion of my project. I also presented my Outreachy project at the annual Fedora developer conference, [Flock to Fedora](https://flocktofedora.org/) in 2019 at Budapest, Hungary. You can access the slides used for the presentation [here](https://docs.google.com/presentation/d/1-f8p3xIJwZBc73KphAZncSC4Ykz9Zpy4eKr76_qBNts/edit?ts=5d417262#slide=id.g5ee093febd_0_32).
