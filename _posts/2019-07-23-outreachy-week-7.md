@@ -46,6 +46,8 @@ And then my project changed completely. This time, my mentor made my new timelin
 
 > **Stretch Goal**: Include the code from Phase 2 into Fedora's repo creation automation so that it gets updated automatically every day.
 
+![Translation Lifecycle](../assets/img/lifecycle_translation.png)
+
 I must say this timeline seemed very relaxed and exciting to me. This project felt like I was a consumer AND a developer for libmodulemd both at the same time. 
 
 ## Project flow
@@ -60,12 +62,16 @@ Now that my project was broken down into tasks, I had to understand each of thes
 	4. Activity flowchart described into words
 3. Write unit tests first for the task validating our expectation of the workflow. This is called [Test-Driven Development](https://www.guru99.com/test-driven-development.html).
 4. Finally write code and fix any intermediary bugs or add necessary features on the way.
-5. Ask doubts throughout, if stuck. 
+5. Ask doubts throughout, if stuck.
+
+Here is an extract of a Software Requirement Specification (SRS) document for my first task. You can check out the whole document [here](https://docs.google.com/document/d/1FANPQE1qwpIjgYGIDGxNH5pOcQ4VMq9O0Xy9Ie0t_ZM/edit?ts=5ce6e6f5).
+
+![SRS Document](../assets/img/SRS.png)
 
 ## Task 1
  > Extract all translatable strings from the modules that have been built for each Fedora release and submit them to the translation tool, Zanata, for the translators to work on.
 
- #### Extraction
+### Extraction
 
  1. Fedora modular metadata is divided into modules which are stored as `YAML` files. 
  2. Every `YAML` file is loaded into a `ModulemdIndex` object. 
@@ -78,7 +84,7 @@ Now that my project was broken down into tasks, I had to understand each of thes
 
 We stored all the strings of a `module:stream` pair that were only of the **highest** version. It is acceptable to assume that if there are multiple matching `streams` of the same `module`, `stream` and `version` but different `context` and/or `architecture` that you do not need to care about `context` and `architecture`. The module build system ensures that all `context/arches` share the same summary, description and profiles across the `version`.
 
-#### Submit to Translation tool
+### Submit to Translation tool
 
 [Zanata](https://fedora.zanata.org/?dswid=-2287) is a translation tool that Fedora relies on right now for its localization needs. It accepts [Babel Catalogs](http://babel.pocoo.org/en/latest/api/messages/catalog.html) (`gettext .pot` files) containing unique strings in one language as keys along with their locations of occurrences in the file. All these strings need to be unique in the catalog. This is important because `gettext .pot` files cannot handle having the same source string appear more than once.
 These catalogs are further processed into `.po` (portable object) files and forwarded for translation. Locations are of the type:
@@ -156,6 +162,8 @@ module_name;stream_name;string_type
     return catalog
  ```
 
+![Phase 1](../assets/img/phase1.png)
+
 ## Task 2
 > Retrieve the finished translations and use the libmodulemd API to turn them into modulemd-translations documents.
 
@@ -222,15 +230,24 @@ for (module_name, stream_name), mmd_translation in translations.items():
 
 ```
 
+![Phase 2](../assets/img/phase2.png)
+
 ### PR merged! 2 months, 2 tasks completed, we were right on time till now!
 
 ## Task 3
 > Include the code from Phase 2 into Fedora's repo creation automation so that it gets updated automatically every day.
 
-Till now everything were just functions being called on static files. Now we would pull actual `YAMLs` from fedora's repo creation tool, `Koji`, and then apply the process to obtain translations. This is still a work-in-progress. Koji calls are network dependent and my tests written for this function were failing due to a connection timeout. Hence, I needed to `mock` a `koji session`. 
+Till now everything were just functions being called on static files. Now we would pull actual `YAMLs` from fedora's repo creation tool, `Koji`, and then apply the process to obtain translations. I have created a CLI Tool so that individual release translations can be manually added to their respective `modulemd YAML` metadata. But to include these translations into the main release is still a work-in-progress.
+
+As of now, I'm a maintainer for the Modulemd Translation Helpers repository for Fedora. You can check it out [here](https://github.com/fedora-modularity/ModulemdTranslationHelpers#modulemdtranslationhelpers).
+
+![Phase 3](../assets/img/phase3.png)
+
 
 ## Wrapping up
-I still have a long way to go, but my learning curve is only getting better. I will write thorough documentation for all of my work after the completion of my project. I am also looking forward to speaking about this project at the annual Fedora developer conference, [Flock to Fedora](https://flocktofedora.org/). Hence proved, Outreachy is truly a rewarding experience! I hope you'd like to immerse yourself into this wonderful weather @ Fedora where the sun is about to shine soon 🌦️.
+I still have a long way to go, but my learning curve is only getting better. I will write thorough documentation for all of my work after the completion of my project. I also presented my Outreachy project at the annual Fedora developer conference, [Flock to Fedora](https://flocktofedora.org/) in 2019 at Budapest, Hungary. You can access the slides used for the presentation [here](https://docs.google.com/presentation/d/1-f8p3xIJwZBc73KphAZncSC4Ykz9Zpy4eKr76_qBNts/edit?ts=5d417262#slide=id.g5ee093febd_0_32).
+
+ Hence proved, Outreachy is truly a rewarding experience! I hope you'd like to immerse yourself into this wonderful weather @ Fedora where the sun is about to shine soon 🌦️.
 
 
 *Fin.*
